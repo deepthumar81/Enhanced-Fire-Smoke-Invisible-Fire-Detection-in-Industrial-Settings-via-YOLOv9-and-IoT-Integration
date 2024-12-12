@@ -42,6 +42,38 @@ This repository provides code for the following tasks:
 2. **Validation**: Evaluate performance metrics such as precision, recall, and mAP.  
 3. **Inference**: Detect hazards in real-time using video streams.  
 
+### Getting Started  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/YourUsername/yolov9-industrial-detection
+   cd yolov9-industrial-detection
+ 
+
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```  
+
+3. Configure dataset paths in `data.yaml`.  
+
+4. Train the model:  
+   ```bash
+   python train.py --data data.yaml --cfg yolov9.yaml --weights '' --epochs 250
+   ```  
+
+5. Test the model:  
+   ```bash
+   python test.py --data data.yaml --weights best.pt
+   ```  
+
+6. Run inference:  
+   ```bash
+   python detect.py --source video.mp4 --weights best.pt
+   ```  
+
+This implementation is based on [YOLOv9](https://github.com/WongKinYiu/yolov9), a state-of-the-art object detection framework.
+
 ---
 
 ## Results  
@@ -79,15 +111,13 @@ The datasets and methodologies were developed and implemented using resources fr
 - [Fire and Smoke Set 2](https://universe.roboflow.com/dworf-nekitaec-0rxxs/set-2-rlbmu)  
 - [Smoke and Fire Dataset](https://universe.roboflow.com/detection-e83li/smokeandfire)  
 - [Fire and Smoke Detection Dataset](https://universe.roboflow.com/fire-detector-cqdzi/fire-and-smoke-b5lli/dataset/1)  
+- [YOLOv9 GitHub Repository](https://github.com/WongKinYiu/yolov9)  
 
-For more details, refer to these datasets and their official pages.  
+For more details, refer to these datasets and the YOLOv9 framework.
 
 ---
 
 ## Contact  
 
 For further information, feel free to reach out:  
-- **[Your Name]**  
-- **[Your Email Address]**  
-
----
+- **deepthumar81@gmail.com**  
