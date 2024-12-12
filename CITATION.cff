@@ -1,14 +1,52 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-authors:
-- family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "Enhanced-Fire-Smoke-Invisible-Fire-Detection-in-Industrial-Settings-via-YOLOv9-and-IoT-Integration"
-version: 1.0.0
-doi: 10.5281/zenodo.1234
-date-released: 2024-12-12
-url: "https://github.com/deepthumar81/Enhanced-Fire-Smoke-Invisible-Fire-Detection-in-Industrial-Settings-via-YOLOv9-and-IoT-Integration"
+@MISC{Kin-Yiu_undated-gk,
+  title       = "Yolov9: Implementation of paper - {YOLOv9}: Learning What You
+                 Want to Learn Using Programmable Gradient Information",
+  author      = "Kin-Yiu, Wong",
+  abstract    = "Implementation of paper - YOLOv9: Learning What You Want to
+                 Learn Using Programmable Gradient Information -
+                 WongKinYiu/yolov9",
+  institution = "Github",
+  language    = "en"
+}
+
+
+@MISC{Kin-Yiu_undated-gk,
+  title       = "Yolov9: Implementation of paper - {YOLOv9}: Learning What You
+                 Want to Learn Using Programmable Gradient Information",
+  author      = "Kin-Yiu, Wong",
+  abstract    = "Implementation of paper - YOLOv9: Learning What You Want to
+                 Learn Using Programmable Gradient Information -
+                 WongKinYiu/yolov9",
+  institution = "Github",
+  language    = "en"
+}
+
+@misc{
+smokeandfire_dataset,
+title = { smokeandfire Dataset },
+type = { Open Source Dataset },
+author = { Detection },
+howpublished = { \url{ https://universe.roboflow.com/detection-e83li/smokeandfire } },
+url = { https://universe.roboflow.com/detection-e83li/smokeandfire },
+journal = { Roboflow Universe },
+publisher = { Roboflow },
+year = { 2024 },
+month = { jan },
+note = { visited on 2024-12-12 },
+}
+
+@misc{
+smokeandfire_dataset,
+title = { smokeandfire Dataset },
+type = { Open Source Dataset },
+author = { Detection },
+howpublished = { \url{ https://universe.roboflow.com/detection-e83li/smokeandfire } },
+url = { https://universe.roboflow.com/detection-e83li/smokeandfire },
+journal = { Roboflow Universe },
+publisher = { Roboflow },
+year = { 2024 },
+month = { jan },
+note = { visited on 2024-12-12 },
+}
